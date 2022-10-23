@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomButton1">
+        <attr name="isNeutral" format="boolean"/>
+        <attr name="isPressed" format="boolean"/>
+        <attr name="isDisabled" format="boolean"/>
+    </declare-styleable>
+
+</resources>

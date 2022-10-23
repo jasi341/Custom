@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#ececec">
+
+    <com.jasmeet.custombuttons.CustomButton1
+        android:id="@+id/btnNeutral"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:isNeutral="true"
+        android:text="Neutral Button"
+        android:textColor="@color/black"
+        android:layout_margin="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.jasmeet.custombuttons.CustomButton1
+        android:id="@+id/btnPressed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:isPressed="true"
+        android:layout_margin="15dp"
+        android:text="Pressed Button"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.jasmeet.custombuttons.CustomButton1
+        android:id="@+id/btnDisabled"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:isDisabled="true"
+        android:layout_margin="15dp"
+        android:text="Disabled Button"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</LinearLayout>
