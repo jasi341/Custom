@@ -2,9 +2,22 @@
 <resources>
 
     <declare-styleable name="CustomButton1">
-        <attr name="isNeutral" format="boolean"/>
-        <attr name="isPressed" format="boolean"/>
-        <attr name="isDisabled" format="boolean"/>
+
+        <!-- Primary button attributes -->
+        <attr name="primaryButtonLong_neutral" format="boolean"/>
+        <attr name="primaryButtonLong_Clicked" format="boolean"/>
+        <attr name="primaryButtonLong_Disabled" format="boolean"/>
+
+
+        <!--Secondary button attributes -->
+        <attr name="secondaryButtonLong_Neutral" format="boolean"/>
+        <attr name="secondaryButtonLong_Clicked" format ="boolean" />
+        <attr name="secondaryButtonLong_Disabled" format="boolean"/>
+
+       <!--Common attributes -->
+        <attr name="drawableLeftCompat" format="reference"/>
+        <attr name="drawableRightCompat" format="reference"/>
+
     </declare-styleable>
 
 </resources>

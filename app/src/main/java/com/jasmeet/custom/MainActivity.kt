@@ -15,19 +15,21 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-      binding.btnNeutral.setOnClickListener {
-        //  binding.btnNeutral.normalButton()
-          binding.btnNeutral.disBtn()
+        binding.btn1.primaryButtonLongNeutral()
+        binding.btn2.primaryButtonLongClicked()
+        binding.btn3.primaryButtonLongDisabled()
 
-          Toast.makeText(applicationContext,"Btn clicked",Toast.LENGTH_SHORT).show()
+        binding.btn4.primaryButtonLongIconNeutral()
+        binding.btn5.primaryButtonLongIconClicked()
+        binding.btn6.primaryButtonLongIconDisabled()
 
-          binding.btnDisabled.visibility = View.GONE
-          binding.btnPressed.visibility = View.GONE
+        binding.btn7.primaryButtonLongTailIconNeutral()
+        binding.btn8.primaryButtonLongTailIconClicked()
+        binding.btn9.primaryButtonLongTailIconDisabled()
 
-
-
-      }
-
+        binding.btn10.secondaryButtonLongNeutral()
+        binding.btn11.secondaryButtonLongClicked()
+        binding.btn12.secondaryButtonLongDisabled()
 
 
     }

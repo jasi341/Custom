@@ -1,47 +1,173 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
-    tools:context=".MainActivity"
-    android:background="#ececec">
+    android:fillViewport="true"
+    android:background="@color/white"
+    tools:context=".MainActivity">
 
-    <com.jasmeet.custombuttons.CustomButton1
-        android:id="@+id/btnNeutral"
+    <LinearLayout
+        android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:isNeutral="true"
-        android:text="Neutral Button"
-        android:textColor="@color/black"
-        android:layout_margin="15dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:orientation="vertical">
 
-    <com.jasmeet.custombuttons.CustomButton1
-        android:id="@+id/btnPressed"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:isPressed="true"
-        android:layout_margin="15dp"
-        android:text="Pressed Button"
-        android:textColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Primary Button Long"
+            android:textSize="15sp"/>
+
+        <com.jasmeet.custombuttons.CustomButton1
+            android:id="@+id/btn1"
+            android:layout_margin="5dp"
+            android:text="Button 1"
+            android:textColor="@color/purple_500"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.jasmeet.custombuttons.CustomButton1
+            android:id="@+id/btn2"
+            android:textColor="@color/purple_500"
+            android:layout_margin="5dp"
+            android:text="Button 2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.jasmeet.custombuttons.CustomButton1
+            android:id="@+id/btn3"
+            android:layout_margin="5dp"
+            android:text="Button 3"
+            android:textColor="@color/purple_500"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_margin="5dp"
+            android:text="Primary Button long icon"
+            android:textSize="15sp"/>
+
+        <com.jasmeet.custombuttons.CustomButton1
+            android:id="@+id/btn4"
+            android:layout_margin="5dp"
+            android:textColor="@color/purple_500"
+            android:drawableTint="@color/purple_500"
+            android:text="Hello world"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:drawableLeftCompat="@drawable/ic_baseline_location_on_24"/>
+
+        <com.jasmeet.custombuttons.CustomButton1
+            android:id="@+id/btn5"
+            android:layout_margin="5dp"
+            android:text="Hello world"
+            android:layout_width="wrap_content"
+            android:textColor="@color/purple_500"
+            android:drawableTint="@color/purple_500"
+            android:layout_height="wrap_content"
+            app:drawableLeftCompat="@drawable/ic_baseline_location_on_24"/>
+
+        <com.jasmeet.custombuttons.CustomButton1
+            android:id="@+id/btn6"
+            android:text="Hello world"
+            android:textColor="@color/purple_500"
+            android:drawableTint="@color/purple_500"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:drawableLeftCompat="@drawable/ic_baseline_location_on_24"/>
+
+        <TextView
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Primary Button long tail icon"
+            android:textSize="15sp"/>
+
+        <com.jasmeet.custombuttons.CustomButton1
+            android:id="@+id/btn7"
+            android:text="Hello world"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/purple_500"
+            android:drawableTint="@color/purple_500"
+            app:drawableRightCompat="@drawable/ic_baseline_location_on_24"/>
+
+        <com.jasmeet.custombuttons.CustomButton1
+            android:id="@+id/btn8"
+            android:text="Hello world"
+            android:layout_margin="5dp"
+android:textColor="@color/purple_500"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTint="@color/purple_500"
+            app:drawableRightCompat="@drawable/ic_baseline_location_on_24"/>
+
+        <com.jasmeet.custombuttons.CustomButton1
+            android:id="@+id/btn9"
+            android:layout_margin="5dp"
+            android:text="Hello world"
+            android:drawableTint="@color/purple_500"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/purple_500"
+            app:drawableRightCompat="@drawable/ic_baseline_location_on_24"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Secondary Button"
+            android:layout_margin="5dp"
+            android:textSize="15sp"/>
+
+        <com.jasmeet.custombuttons.CustomButton1
+            android:id="@+id/btn10"
+            android:layout_margin="5dp"
+            android:text="Hello world"
+            android:textColor="@color/purple_500"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.jasmeet.custombuttons.CustomButton1
+            android:id="@+id/btn11"
+            android:text="Hello world"
+            android:textColor="@color/purple_500"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.jasmeet.custombuttons.CustomButton1
+            android:id="@+id/btn12"
+            android:text="Hello world"
+            android:layout_margin="5dp"
+            android:textColor="@color/purple_500"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="invisible"
+            android:textColor="@color/black"
+            android:background="?android:attr/selectableItemBackground"/>
 
 
-    <com.jasmeet.custombuttons.CustomButton1
-        android:id="@+id/btnDisabled"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:isDisabled="true"
-        android:layout_margin="15dp"
-        android:text="Disabled Button"
-        android:textColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+</ScrollView>
 
 
-</LinearLayout>
+
