@@ -46,4 +46,6 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
     implementation project(path: ':customButtons')
+    //lottie
+    implementation 'com.airbnb.android:lottie:5.2.0'
 }

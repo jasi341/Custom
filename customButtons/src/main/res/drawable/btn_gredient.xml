@@ -8,9 +8,8 @@
     <corners android:radius="@dimen/margin_4"/>
 
     <gradient
-
-        android:angle="-135"
-        android:startColor="#f37021"
-        android:endColor="#FAC898" />
+        android:angle="278"
+        android:startColor="@color/color_secondary"
+        android:endColor="@color/color_secondary_variant" />
 
 </shape>
