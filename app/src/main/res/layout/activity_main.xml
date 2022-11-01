@@ -460,7 +460,7 @@
             android:textSize="15sp"/>
 
 
-        <FrameLayout
+    <!--    <FrameLayout
             android:layout_width="328dp"
             android:layout_height="48dp"
             style="?android:attr/buttonStyle"
@@ -471,11 +471,21 @@
                 android:layout_width="328dp"
                 android:layout_height="48dp"
                 app:lottie_loop="true"
-
                 app:lottie_rawRes="@raw/loader"
                 app:lottie_autoPlay="true"/>
         </FrameLayout>
+    -->
 
+        <com.jasmeet.custombuttons.LoadingBtn
+            android:id="@+id/btn28"
+            android:layout_width="328dp"
+            android:layout_height="48dp"
+            app:lottie_rawRes="@raw/loader"
+            app:lottie_loop="true"
+            android:padding="10dp"
+            android:backgroundTint="@color/orange"
+            style="?android:attr/buttonStyle"
+            app:lottie_autoPlay="true"/>
 
     </LinearLayout>
 </ScrollView>
