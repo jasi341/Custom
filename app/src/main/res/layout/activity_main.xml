@@ -24,6 +24,7 @@
             android:text="Primary Button Long"
             android:textSize="15sp"/>
 
+
         <com.jasmeet.custombuttons.CustomButton1
             android:id="@+id/btn1"
             android:layout_width="328dp"
@@ -33,14 +34,13 @@
             android:textAllCaps="true"
             android:layout_margin="5dp"
             android:text="@string/save_it"
-            android:textColor="@color/white" />
+             />
 
 
         <com.jasmeet.custombuttons.CustomButton1
             android:id="@+id/btn2"
             android:layout_width="328dp"
             android:layout_height="48dp"
-            android:textColor="@color/white"
             android:layout_margin="5dp"
             android:text="@string/save_it"
             android:textSize="16sp"
@@ -57,7 +57,6 @@
             android:textSize="16sp"
             android:textAlignment="center"
             android:textAllCaps="true"
-            android:textColor="@color/disabled"
            />
 
         <TextView
@@ -65,7 +64,6 @@
             android:layout_height="wrap_content"
             android:textColor="@color/black"
             android:layout_margin="5dp"
-
             android:text="Primary Button long icon"
             android:textSize="15sp"/>
 
@@ -74,15 +72,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:drawableTint="@color/white"
             android:text="@string/save_it"
+            android:drawableTint="@color/orange"
             android:textSize="16sp"
             android:layout_margin="5dp"
             android:textAlignment="center"
             android:textAllCaps="true"
             android:drawablePadding="5dp"
-            android:textColor="@color/white"
-            app:drawableLeftCompat="@drawable/ic_baseline_location_on_24"/>
+            android:drawableStart="@drawable/ic_baseline_location_on_24"/>
 
         <com.jasmeet.custombuttons.CustomButton1
             android:id="@+id/btn5"
@@ -91,10 +88,10 @@
             android:layout_margin="5dp"
             android:text="@string/save_it"
             android:textSize="16sp"
+
             android:textAlignment="center"
             android:textAllCaps="true"
             android:drawablePadding="5dp"
-            android:textColor="@color/white"
             android:drawableTint="@color/white"
             app:drawableLeftCompat="@drawable/ic_baseline_location_on_24"/>
 
@@ -107,8 +104,7 @@
             android:textAlignment="center"
             android:textAllCaps="true"
             android:drawablePadding="5dp"
-            android:textColor="@color/disabled"
-            android:drawableTint="@color/disabled"
+
             android:layout_margin="5dp"
             app:drawableLeftCompat="@drawable/ic_baseline_location_on_24"/>
 
@@ -130,7 +126,6 @@
             android:textAllCaps="true"
             android:drawablePadding="5dp"
             android:layout_margin="5dp"
-            android:textColor="@color/white"
             android:drawableTint="@color/white"
             app:drawableRightCompat="@drawable/ic_baseline_location_on_24"/>
 
@@ -144,7 +139,6 @@
             android:textAllCaps="true"
             android:drawablePadding="5dp"
             android:layout_margin="5dp"
-            android:textColor="@color/white"
             android:drawableTint="@color/white"
             app:drawableRightCompat="@drawable/ic_baseline_location_on_24"/>
 
@@ -159,7 +153,6 @@
             android:textAllCaps="true"
             android:drawablePadding="5dp"
             android:drawableTint="@color/disabled"
-            android:textColor="@color/disabled"
             app:drawableRightCompat="@drawable/ic_baseline_location_on_24"/>
 
         <TextView
@@ -176,7 +169,6 @@
             android:id="@+id/btn10"
             android:layout_margin="5dp"
             android:text="@string/save_it"
-            android:textColor="@color/orange"
             android:textSize="16sp"
             android:textAlignment="center"
             android:textAllCaps="true"
@@ -188,7 +180,6 @@
             android:layout_width="328dp"
             android:layout_height="48dp"
             android:text="@string/save_it"
-            android:textColor="@color/orange"
             android:layout_margin="5dp"
             android:textSize="16sp"
             android:textAlignment="center"
@@ -206,7 +197,6 @@
             android:textAlignment="center"
             android:textAllCaps="true"
             android:drawablePadding="5dp"
-            android:textColor="@color/disabled"
           />
 
         <TextView
@@ -221,7 +211,6 @@
             android:id="@+id/btn13"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/orange"
             android:layout_margin="5dp"
             android:text="@string/save_it"
             android:textSize="16sp"
@@ -236,7 +225,6 @@
             android:id="@+id/btn14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/orange"
             android:layout_margin="5dp"
             android:text="@string/save_it"
             android:textSize="16sp"
@@ -250,7 +238,6 @@
             android:id="@+id/btn15"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/disabled"
             android:layout_margin="5dp"
             android:text="@string/save_it"
             android:drawableTint="@color/disabled"
@@ -272,7 +259,6 @@
             android:id="@+id/btn16"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/orange"
             android:layout_margin="5dp"
             android:text="@string/save_it"
             android:textSize="16sp"
@@ -287,7 +273,6 @@
             android:id="@+id/btn17"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/orange"
             android:layout_margin="5dp"
             android:text="@string/save_it"
             android:textSize="16sp"
@@ -302,7 +287,6 @@
             android:id="@+id/btn18"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/disabled"
             android:layout_margin="5dp"
             android:text="@string/save_it"
             android:textSize="16sp"
@@ -343,7 +327,7 @@
             android:drawablePadding="5dp"
             android:layout_margin="5dp"
             android:text="@string/save_it"
-            android:textColor="@color/orange" />
+          />
 
         <com.jasmeet.custombuttons.CustomButton1
             android:id="@+id/btn20"
@@ -355,7 +339,7 @@
             android:drawablePadding="5dp"
             android:layout_margin="5dp"
             android:text="@string/save_it"
-            android:textColor="@color/orange" />
+            />
 
         <com.jasmeet.custombuttons.CustomButton1
             android:id="@+id/btn21"
@@ -366,8 +350,7 @@
             android:textAllCaps="true"
             android:drawablePadding="5dp"
             android:layout_margin="5dp"
-            android:text="@string/save_it"
-            android:textColor="@color/disabled" />
+            android:text="@string/save_it" />
 
         <TextView
             android:layout_width="match_parent"
@@ -386,7 +369,7 @@
             android:textAllCaps="true"
             android:layout_margin="5dp"
             android:text="@string/save_it"
-            android:textColor="@color/white" />
+            />
 
         <com.jasmeet.custombuttons.CustomButton1
             android:id="@+id/btn23"
@@ -396,8 +379,7 @@
             android:textAlignment="center"
             android:textAllCaps="true"
             android:layout_margin="5dp"
-            android:text="@string/save_it"
-            android:textColor="@color/white" />
+            android:text="@string/save_it" />
 
         <com.jasmeet.custombuttons.CustomButton1
             android:id="@+id/btn24"
@@ -408,7 +390,7 @@
             android:textAllCaps="true"
             android:layout_margin="5dp"
             android:text="@string/save_it"
-            android:textColor="@color/disabled" />
+         />
 
         <TextView
             android:layout_width="match_parent"
@@ -427,7 +409,7 @@
             android:textAllCaps="true"
             android:layout_margin="5dp"
             android:text="@string/save_it"
-            android:textColor="@color/orange" />
+            />
 
         <com.jasmeet.custombuttons.CustomButton1
             android:id="@+id/btn26"
@@ -438,7 +420,7 @@
             android:textAllCaps="true"
             android:layout_margin="5dp"
             android:text="@string/save_it"
-            android:textColor="@color/orange" />
+             />
 
         <com.jasmeet.custombuttons.CustomButton1
             android:id="@+id/btn27"
@@ -449,7 +431,7 @@
             android:textAllCaps="true"
             android:layout_margin="5dp"
             android:text="@string/save_it"
-            android:textColor="@color/disabled" />
+             />
 
         <TextView
             android:layout_margin="5dp"
@@ -486,6 +468,8 @@
             android:backgroundTint="@color/orange"
             style="?android:attr/buttonStyle"
             app:lottie_autoPlay="true"/>
+
+
 
     </LinearLayout>
 </ScrollView>

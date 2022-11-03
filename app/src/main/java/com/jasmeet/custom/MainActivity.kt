@@ -1,7 +1,10 @@
 package com.jasmeet.custom
 
 import android.os.Bundle
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.graphics.drawable.DrawableCompat
+import androidx.core.graphics.drawable.toDrawable
 import com.jasmeet.custom.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -14,10 +17,16 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.btn1.primaryButtonLongNeutral()
+        binding.btn1.setOnClickListener {
+            binding.btn1.primaryButtonLongDisabled()
+            Toast.makeText(this,"hello world",Toast.LENGTH_SHORT).show()
+        }
+
+        binding.btn4.primaryButtonLongIconClicked()
         binding.btn2.primaryButtonLongClicked()
         binding.btn3.primaryButtonLongDisabled()
 
-        binding.btn4.primaryButtonLongIconNeutral()
+
         binding.btn5.primaryButtonLongIconClicked()
         binding.btn6.primaryButtonLongIconDisabled()
 
@@ -48,6 +57,16 @@ class MainActivity : AppCompatActivity() {
         binding.btn25.secondaryButtonShortNeutral()
         binding.btn26.secondaryButtonShortClicked()
         binding.btn27.secondaryButtonShortDisabled()
+
+
+
+
+
+
+
+
+
+
 
 
 
