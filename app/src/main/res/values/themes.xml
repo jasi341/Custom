@@ -15,7 +15,7 @@
     </style>
 
     <!-- Base application theme. -->
-    <style name="Theme.Custo" parent="Theme.MaterialComponents.NoActionBar">
+    <style name="Theme.Custo" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
@@ -27,5 +27,10 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+    </style>
+
+    <style name="InputLay" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeErrorColor">@android:color/white</item>
+
     </style>
 </resources>

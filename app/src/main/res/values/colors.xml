@@ -11,5 +11,5 @@
     <color name="orange">#F37021</color>
     <color name="disabled">#ffbb86fc</color>
 
-    <dimen name="margin_4">4dp</dimen>
+
 </resources>
