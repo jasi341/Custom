@@ -1,5 +1,6 @@
 package com.jasmeet.custom
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -56,19 +57,9 @@ class MainActivity : AppCompatActivity() {
         binding.btn26.secondaryButtonShortClicked()
         binding.btn27.secondaryButtonShortDisabled()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+        binding.btn.setOnClickListener {
+            startActivity(Intent(this,InputFieldsActivity::class.java))
+        }
 
     }
 }

@@ -1,6 +1,7 @@
 package com.jasmeet.custom
 
 
+import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
 import android.widget.Toast
@@ -33,5 +34,9 @@ class InputFieldsActivity : AppCompatActivity() {
            }
 
        }
+
+        binding.button2.setOnClickListener {
+            startActivity(Intent(this,TransitionActivity::class.java))
+        }
     }
 }

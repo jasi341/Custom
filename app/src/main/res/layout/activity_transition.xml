@@ -8,15 +8,14 @@
     android:background="#ececec"
     tools:context=".TransitionActivity">
 
-    <com.jasmeet.custombuttons.CustomButton1
+    <com.jasmeet.custombuttons.IconButtons
         android:id="@+id/btn1"
         android:layout_width="328dp"
         android:layout_height="48dp"
-        android:layout_margin="5dp"
         android:text="@string/save_it"
-        android:textAlignment="center"
-        android:textAllCaps="true"
-        android:textSize="16sp"
+        app:backgroundTint="@null"
+        android:layout_margin="5dp"
+        app:icon="@drawable/ic_baseline_location_on_24"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -37,5 +36,8 @@
         android:backgroundTint="@color/orange"
         style="?android:attr/buttonStyle"
         app:lottie_autoPlay="true"/>
+
+    />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

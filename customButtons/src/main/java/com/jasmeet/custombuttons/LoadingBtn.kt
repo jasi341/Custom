@@ -17,7 +17,6 @@ class LoadingBtn(context: Context, attrs:AttributeSet):LottieAnimationView(conte
         val loop = a.getBoolean(R.styleable.LoadingBtn_lottie_loop, true)
         val autoPlay = a.getBoolean(R.styleable.LoadingBtn_lottie_autoPlay,true)
 
-
     }
 
 

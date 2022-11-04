@@ -25,7 +25,7 @@
             android:textSize="15sp"/>
 
 
-        <com.jasmeet.custombuttons.CustomButton1
+        <com.jasmeet.custombuttons.WithoutIconButton
             android:id="@+id/btn1"
             android:layout_width="328dp"
             android:layout_height="48dp"
@@ -37,7 +37,7 @@
              />
 
 
-        <com.jasmeet.custombuttons.CustomButton1
+        <com.jasmeet.custombuttons.WithoutIconButton
             android:id="@+id/btn2"
             android:layout_width="328dp"
             android:layout_height="48dp"
@@ -48,7 +48,7 @@
             android:textAllCaps="true"
            />
 
-        <com.jasmeet.custombuttons.CustomButton1
+        <com.jasmeet.custombuttons.WithoutIconButton
             android:id="@+id/btn3"
             android:layout_width="328dp"
             android:layout_height="48dp"
@@ -67,7 +67,7 @@
             android:text="Primary Button long icon"
             android:textSize="15sp"/>
 
-        <com.jasmeet.custombuttons.CustomButton1
+        <com.jasmeet.custombuttons.WithoutIconButton
             android:id="@+id/btn4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -81,7 +81,7 @@
             android:drawablePadding="5dp"
             android:drawableStart="@drawable/ic_baseline_location_on_24"/>
 
-        <com.jasmeet.custombuttons.CustomButton1
+        <com.jasmeet.custombuttons.WithoutIconButton
             android:id="@+id/btn5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -95,7 +95,7 @@
             android:drawableTint="@color/white"
             app:drawableLeftCompat="@drawable/ic_baseline_location_on_24"/>
 
-        <com.jasmeet.custombuttons.CustomButton1
+        <com.jasmeet.custombuttons.WithoutIconButton
             android:id="@+id/btn6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -116,7 +116,7 @@
             android:text="Primary Button long tail icon"
             android:textSize="15sp"/>
 
-        <com.jasmeet.custombuttons.CustomButton1
+        <com.jasmeet.custombuttons.WithoutIconButton
             android:id="@+id/btn7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -129,7 +129,7 @@
             android:drawableTint="@color/white"
             app:drawableRightCompat="@drawable/ic_baseline_location_on_24"/>
 
-        <com.jasmeet.custombuttons.CustomButton1
+        <com.jasmeet.custombuttons.WithoutIconButton
             android:id="@+id/btn8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -142,7 +142,7 @@
             android:drawableTint="@color/white"
             app:drawableRightCompat="@drawable/ic_baseline_location_on_24"/>
 
-        <com.jasmeet.custombuttons.CustomButton1
+        <com.jasmeet.custombuttons.WithoutIconButton
             android:id="@+id/btn9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -163,7 +163,7 @@
             android:layout_margin="5dp"
             android:textSize="15sp"/>
 
-        <com.jasmeet.custombuttons.CustomButton1
+        <com.jasmeet.custombuttons.WithoutIconButton
             android:layout_width="328dp"
             android:layout_height="48dp"
             android:id="@+id/btn10"
@@ -175,7 +175,7 @@
             android:drawablePadding="5dp"
             />
 
-        <com.jasmeet.custombuttons.CustomButton1
+        <com.jasmeet.custombuttons.WithoutIconButton
             android:id="@+id/btn11"
             android:layout_width="328dp"
             android:layout_height="48dp"
@@ -187,7 +187,7 @@
             android:drawablePadding="5dp"
             />
 
-        <com.jasmeet.custombuttons.CustomButton1
+        <com.jasmeet.custombuttons.WithoutIconButton
             android:id="@+id/btn12"
             android:layout_width="328dp"
             android:layout_height="48dp"
@@ -207,7 +207,7 @@
             android:layout_margin="5dp"
             android:textSize="15sp"/>
 
-        <com.jasmeet.custombuttons.CustomButton1
+        <com.jasmeet.custombuttons.WithoutIconButton
             android:id="@+id/btn13"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -221,7 +221,7 @@
             app:drawableLeftCompat="@drawable/ic_baseline_location_on_24"
            />
 
-        <com.jasmeet.custombuttons.CustomButton1
+        <com.jasmeet.custombuttons.WithoutIconButton
             android:id="@+id/btn14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -234,7 +234,7 @@
             android:textAllCaps="true"
             />
 
-        <com.jasmeet.custombuttons.CustomButton1
+        <com.jasmeet.custombuttons.WithoutIconButton
             android:id="@+id/btn15"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -255,7 +255,7 @@
             android:layout_margin="5dp"
             android:textSize="15sp"/>
 
-        <com.jasmeet.custombuttons.CustomButton1
+        <com.jasmeet.custombuttons.WithoutIconButton
             android:id="@+id/btn16"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -269,7 +269,7 @@
             android:drawablePadding="5dp"
             />
 
-        <com.jasmeet.custombuttons.CustomButton1
+        <com.jasmeet.custombuttons.WithoutIconButton
             android:id="@+id/btn17"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -283,7 +283,7 @@
             android:drawablePadding="5dp"
             />
 
-        <com.jasmeet.custombuttons.CustomButton1
+        <com.jasmeet.custombuttons.WithoutIconButton
             android:id="@+id/btn18"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -317,7 +317,7 @@
             android:layout_marginBottom="5dp"
             android:textSize="15sp"/>
 
-        <com.jasmeet.custombuttons.CustomButton1
+        <com.jasmeet.custombuttons.WithoutIconButton
             android:id="@+id/btn19"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -329,7 +329,7 @@
             android:text="@string/save_it"
           />
 
-        <com.jasmeet.custombuttons.CustomButton1
+        <com.jasmeet.custombuttons.WithoutIconButton
             android:id="@+id/btn20"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -341,7 +341,7 @@
             android:text="@string/save_it"
             />
 
-        <com.jasmeet.custombuttons.CustomButton1
+        <com.jasmeet.custombuttons.WithoutIconButton
             android:id="@+id/btn21"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -360,7 +360,7 @@
             android:layout_margin="5dp"
             android:textSize="15sp"/>
 
-        <com.jasmeet.custombuttons.CustomButton1
+        <com.jasmeet.custombuttons.WithoutIconButton
             android:id="@+id/btn22"
             android:layout_width="156dp"
             android:layout_height="48dp"
@@ -371,7 +371,7 @@
             android:text="@string/save_it"
             />
 
-        <com.jasmeet.custombuttons.CustomButton1
+        <com.jasmeet.custombuttons.WithoutIconButton
             android:id="@+id/btn23"
             android:layout_width="156dp"
             android:layout_height="48dp"
@@ -381,7 +381,7 @@
             android:layout_margin="5dp"
             android:text="@string/save_it" />
 
-        <com.jasmeet.custombuttons.CustomButton1
+        <com.jasmeet.custombuttons.WithoutIconButton
             android:id="@+id/btn24"
             android:layout_width="156dp"
             android:layout_height="48dp"
@@ -400,7 +400,7 @@
             android:layout_margin="5dp"
             android:textSize="15sp"/>
 
-        <com.jasmeet.custombuttons.CustomButton1
+        <com.jasmeet.custombuttons.WithoutIconButton
             android:id="@+id/btn25"
             android:layout_width="156dp"
             android:layout_height="48dp"
@@ -411,7 +411,7 @@
             android:text="@string/save_it"
             />
 
-        <com.jasmeet.custombuttons.CustomButton1
+        <com.jasmeet.custombuttons.WithoutIconButton
             android:id="@+id/btn26"
             android:layout_width="156dp"
             android:layout_height="48dp"
@@ -422,7 +422,7 @@
             android:text="@string/save_it"
              />
 
-        <com.jasmeet.custombuttons.CustomButton1
+        <com.jasmeet.custombuttons.WithoutIconButton
             android:id="@+id/btn27"
             android:layout_width="156dp"
             android:layout_height="48dp"
@@ -469,7 +469,12 @@
             style="?android:attr/buttonStyle"
             app:lottie_autoPlay="true"/>
 
-
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Input Field"
+            android:textSize="15sp"/>
 
     </LinearLayout>
 </ScrollView>

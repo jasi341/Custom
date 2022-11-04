@@ -3,14 +3,12 @@ package com.jasmeet.custombuttons
 import android.content.Context
 import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatButton
-import androidx.core.graphics.drawable.DrawableCompat
-import androidx.core.graphics.drawable.toDrawable
-import com.google.android.material.button.MaterialButton
+import com.jasmeet.custombuttons.R.styleable.WithoutIconButton
 
-class CustomButton1(context: Context,attrs:AttributeSet): AppCompatButton(context,attrs) {
+class WithoutIconButton(context: Context, attrs:AttributeSet): AppCompatButton(context,attrs) {
 
     private var mContext = context
-    private val a = mContext.obtainStyledAttributes(attrs,R.styleable.CustomButton1)
+    private val a = mContext.obtainStyledAttributes(attrs, WithoutIconButton)
 
     //Neutral Primary button Long
     fun primaryButtonLongNeutral() {
@@ -35,7 +33,7 @@ class CustomButton1(context: Context,attrs:AttributeSet): AppCompatButton(contex
 
     //Neutral Primary button long icon
     fun primaryButtonLongIconNeutral(){
-        val drawableLeftCompat = a.getDrawable(R.styleable.CustomButton1_drawableLeftCompat)
+        val drawableLeftCompat = a.getDrawable(R.styleable.WithoutIconButton_drawableLeftCompat)
         setTextColor( resources.getColor(R.color.white))
         setBackgroundResource(R.drawable.btn_gredient)
         setPadding(385,0,385,0)
@@ -44,16 +42,16 @@ class CustomButton1(context: Context,attrs:AttributeSet): AppCompatButton(contex
 
     //Clicked Primary button long icon
     fun primaryButtonLongIconClicked(){
-        val drawableLeftCompat = a.getDrawable(R.styleable.CustomButton1_drawableLeftCompat)
+        val drawableLeftCompat = a.getDrawable(R.styleable.WithoutIconButton_drawableLeftCompat)
         setTextColor( resources.getColor(R.color.white))
         setBackgroundResource(R.drawable.btn_clicked)
-        setPadding(385,0,385,0)
+
         invalidate()
     }
 
     //Disabled Primary button long icon
     fun primaryButtonLongIconDisabled() {
-        val drawableLeftCompat = a.getDrawable(R.styleable.CustomButton1_drawableLeftCompat)
+        val drawableLeftCompat = a.getDrawable(R.styleable.WithoutIconButton_drawableLeftCompat)
         setBackgroundResource(R.drawable.btn_disabled)
         setPadding(385,0,385,0)
         setTextColor( resources.getColor(R.color.disabled_text))
@@ -62,7 +60,7 @@ class CustomButton1(context: Context,attrs:AttributeSet): AppCompatButton(contex
 
     //Neutral Primary button long tail icon
     fun primaryButtonLongTailIconNeutral(){
-        val drawableRightCompat = a.getDrawable(R.styleable.CustomButton1_drawableRightCompat)
+        val drawableRightCompat = a.getDrawable(R.styleable.WithoutIconButton_drawableRightCompat)
         setBackgroundResource(R.drawable.btn_gredient)
         setTextColor( resources.getColor(R.color.white))
         setPadding(385,0,385,0)
@@ -71,7 +69,7 @@ class CustomButton1(context: Context,attrs:AttributeSet): AppCompatButton(contex
 
     //CLicked Primary button long tail icon
     fun primaryButtonLongTailIconClicked(){
-        val drawableRightCompat = a.getDrawable(R.styleable.CustomButton1_drawableRightCompat)
+        val drawableRightCompat = a.getDrawable(R.styleable.WithoutIconButton_drawableRightCompat)
         setBackgroundResource(R.drawable.btn_clicked)
         setTextColor( resources.getColor(R.color.white))
         setPadding(385,0,385,0)
@@ -80,7 +78,7 @@ class CustomButton1(context: Context,attrs:AttributeSet): AppCompatButton(contex
 
     //Disabled Primary button long tail icon
     fun primaryButtonLongTailIconDisabled(){
-        val drawableRightCompat = a.getDrawable(R.styleable.CustomButton1_drawableRightCompat)
+        val drawableRightCompat = a.getDrawable(R.styleable.WithoutIconButton_drawableRightCompat)
         setPadding(385,0,385,0)
         setBackgroundResource(R.drawable.btn_disabled)
         setTextColor( resources.getColor(R.color.disabled_text))
@@ -113,7 +111,7 @@ class CustomButton1(context: Context,attrs:AttributeSet): AppCompatButton(contex
         setBackgroundResource(R.drawable.btn_sec_neutral)
         setPadding(385,0,385,0)
         setTextColor( resources.getColor(R.color.orange))
-        val drawableLeftCompat = a.getDrawable(R.styleable.CustomButton1_drawableLeftCompat)
+        val drawableLeftCompat = a.getDrawable(R.styleable.WithoutIconButton_drawableLeftCompat)
         invalidate()
     }
 
@@ -122,7 +120,7 @@ class CustomButton1(context: Context,attrs:AttributeSet): AppCompatButton(contex
         setBackgroundResource(R.drawable.btn_sec_clicked)
         setPadding(385,0,385,0)
         setTextColor( resources.getColor(R.color.orange))
-        val drawableLeftCompat = a.getDrawable(R.styleable.CustomButton1_drawableLeftCompat)
+        val drawableLeftCompat = a.getDrawable(R.styleable.WithoutIconButton_drawableLeftCompat)
         invalidate()
     }
 
@@ -131,7 +129,7 @@ class CustomButton1(context: Context,attrs:AttributeSet): AppCompatButton(contex
         setBackgroundResource(R.drawable.btn_sec_disabled)
         setPadding(385,0,385,0)
         setTextColor( resources.getColor(R.color.disabled_text))
-        val drawableLeftCompat = a.getDrawable(R.styleable.CustomButton1_drawableLeftCompat)
+        val drawableLeftCompat = a.getDrawable(R.styleable.WithoutIconButton_drawableLeftCompat)
         invalidate()
     }
 
@@ -140,7 +138,7 @@ class CustomButton1(context: Context,attrs:AttributeSet): AppCompatButton(contex
         setBackgroundResource(R.drawable.btn_sec_disabled)
         setPadding(385,0,385,0)
         setTextColor( resources.getColor(R.color.orange))
-        val drawableRightCompat = a.getDrawable(R.styleable.CustomButton1_drawableRightCompat)
+        val drawableRightCompat = a.getDrawable(R.styleable.WithoutIconButton_drawableRightCompat)
         invalidate()
     }
 
@@ -149,7 +147,7 @@ class CustomButton1(context: Context,attrs:AttributeSet): AppCompatButton(contex
         setTextColor( resources.getColor(R.color.orange))
         setBackgroundResource(R.drawable.btn_sec_clicked)
         setPadding(385,0,385,0)
-        val drawableRightCompat = a.getDrawable(R.styleable.CustomButton1_drawableRightCompat)
+        val drawableRightCompat = a.getDrawable(R.styleable.WithoutIconButton_drawableRightCompat)
         invalidate()
     }
 
@@ -158,16 +156,16 @@ class CustomButton1(context: Context,attrs:AttributeSet): AppCompatButton(contex
         setBackgroundResource(R.drawable.btn_sec_disabled)
         setPadding(385,0,385,0)
         setTextColor( resources.getColor(R.color.disabled_text))
-        val drawableRightCompat = a.getDrawable(R.styleable.CustomButton1_drawableRightCompat)
+        val drawableRightCompat = a.getDrawable(R.styleable.WithoutIconButton_drawableRightCompat)
         invalidate()
     }
 
     //can be used for all kinds of tertiary buttons
     fun tertiaryButton(){
         setBackgroundResource(R.drawable.btn_trans)
-        setTextColor( resources.getColor(R.color.white))
+        setTextColor( resources.getColor(R.color.orange))
         setPadding(385,0,385,0)
-        val drawableRightCompat = a.getDrawable(R.styleable.CustomButton1_drawableRightCompat)
+        val drawableRightCompat = a.getDrawable(R.styleable.WithoutIconButton_drawableRightCompat)
         invalidate()
     }
 

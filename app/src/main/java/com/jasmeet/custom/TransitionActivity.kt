@@ -18,12 +18,12 @@ class TransitionActivity : AppCompatActivity() {
 
         setContentView(binding.root)
 
-        binding.btn1.primaryButtonLongNeutral()
+        binding.btn1.primaryButtonLongIconNeutral()
 
       //post delay of 5 sec after button is clicked
 
         binding.btn1.setOnClickListener {
-           binding.btn1.primaryButtonLongClicked()
+           binding.btn1.primaryButtonLongIconClicked()
 
 
             binding.btn1.postDelayed({
@@ -33,7 +33,7 @@ class TransitionActivity : AppCompatActivity() {
 
                 binding.btn1.postDelayed({
                 binding.btn1.visibility = android.view.View.VISIBLE
-                binding.btn1.primaryButtonLongDisabled()
+                binding.btn1.primaryButtonLongIconDisabled()
                 binding.btn2.visibility= android.view.View.GONE
             }, 2000)
         }
